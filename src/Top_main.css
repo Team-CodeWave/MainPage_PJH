@@ -1,0 +1,36 @@
+#top-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    padding: 100px 0 100px 0;
+}
+
+.portfolio-text {
+    color: #000;
+    text-align: center;
+    font-family: Noto Sans KR;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 128.571% */
+}
+
+.start-button2 {
+    width: auto;
+    white-space: nowrap;
+    border-radius: 4px;    
+
+    background: #0085FF;
+
+    color: #FFF;
+    font-family: Noto Sans KR;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.start-button2:hover {
+    cursor: pointer;
+}

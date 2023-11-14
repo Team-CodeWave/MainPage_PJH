@@ -1,0 +1,50 @@
+#introduce {
+    position: relative;
+}
+
+.header-background {
+    width: 1440px;
+    height: 122px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+}
+
+.contact-info {
+    left: 226px;
+    top: 57px;
+    position: absolute;
+    color: #9A95A3;
+    font-size: 12px;
+    font-family: Noto Sans KR;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.brand-info {
+    left: 226px;
+    top: 26px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    display: inline-flex;
+}
+
+.brand-info .brand-name,
+.brand-info .link {
+    color: #9A95A3;
+    font-size: 16px;
+    font-family: Noto Sans KR;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.brand-info .separator {
+    color: #9A95A3;
+    font-size: 16px;
+    font-family: Noto Sans KR;
+    font-weight: 400;
+    word-wrap: break-word;
+}

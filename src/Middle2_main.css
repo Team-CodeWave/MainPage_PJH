@@ -1,0 +1,59 @@
+#middle2-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:400px;
+    position: relative;
+    overflow: hidden;
+
+    height: 500px;
+
+    background: white;
+}
+
+.middle2-left-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.middle-title-text {
+    color: #000;
+    font-family: Noto Sans KR;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 120% */
+}
+
+.middle-sub-title-text {
+    color: #9A95A3;
+    font-family: Noto Sans KR;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.thumbnails {
+    width: 272px;
+    height: 556px;
+    left: 828px;
+    top: -66px;
+    position: absolute;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    background: #F7F6F9;
+    border-radius: 16px;
+}
+
+.small-thumbnail {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
