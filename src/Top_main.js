@@ -15,7 +15,7 @@ function Top_main() {
         <div id='wave'>
             <Wave
               mask="url(#mask)"
-              fill="#1277b0"
+              fill="#0085FF"
               style={{ display: 'flex' }}
               options={commonWaveOptions}
             >

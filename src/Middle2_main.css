@@ -44,8 +44,8 @@
 }
 
 .thumbnail {
-    width: 80px;
-    height: 80px;
+    width: 160px; /* 박스의 크기를 2배로 증가 */
+    height: 160px; /* 박스의 크기를 2배로 증가 */
     left: 0;
     position: absolute;
     background: #F7F6F9;
@@ -53,7 +53,40 @@
 }
 
 .small-thumbnail {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 48px;
     height: 48px;
     position: absolute;
+
+    color: black;
+    font-size: 21px;
+    font-family: Noto Sans KR;
+    font-weight: 900;
+    word-wrap: break-word;
+
+    animation: yourAnimation 5s infinite linear;
+}
+
+@keyframes yourAnimation {
+    0%, 100% { transform: translateY(0); }
+}
+
+@keyframes moveDown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100%); }
+}
+
+@keyframes moveUp {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(100%); }
+}
+
+.column1 .thumbnail, .thumbnail {
+    animation: moveDown 5s infinite linear;
+}
+
+.column2 .thumbnail {
+    animation: moveUp 5s infinite linear;
 }
