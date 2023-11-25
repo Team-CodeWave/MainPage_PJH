@@ -10,26 +10,45 @@ function Middle2_main() {
 
     return (
         <>
-            <div class="middle2-left-box">
-                <div class="middle-title-text">다양한 선택지들이<br/>준비되어 있어요</div>
-                <div class="middle-sub-title-text">오늘의 인기 템플릿부터, 개발자, 나만의 템플릿 등<br/>다양한 선택지 중에서 나만을 위한 템플릿을 찾아보세요</div>
-            </div>
-            <div class="middle2-right-box">
-                <div class="thumbnails">
-                    <div class="column1">
-                        <div className="thumbnail" style={{ top: '0px', animationPlayState: animationState }} onClick={handleClick}></div>
-                        <div className="thumbnail" style={{ top: '192px', animationPlayState: animationState }} onClick={handleClick}></div>
-                        <div className="thumbnail" style={{ top: '384px', animationPlayState: animationState }} onClick={handleClick}></div>
-                        <div className="thumbnail" style={{ top: '576px', animationPlayState: animationState }} onClick={handleClick}></div>
-                    </div>
-                    <div class="column2">
-                    <div className="thumbnail" style={{ left: '192px', top: '-192px', animationPlayState: animationState }} onClick={handleClick}></div>
-                        <div className="thumbnail" style={{ left: '192px', top: '0px', animationPlayState: animationState }} onClick={handleClick}></div>
-                        <div className="thumbnail" style={{ left: '192px', top: '192px', animationPlayState: animationState }} onClick={handleClick}></div>
-                        <div className="thumbnail" style={{ left: '192px', top: '384px', animationPlayState: animationState }} onClick={handleClick}></div>
-                        <div className="thumbnail" style={{ left: '192px', top: '576px', animationPlayState: animationState }} onClick={handleClick}></div>
-                        <div className="thumbnail" style={{ left: '192px', top: '768px', animationPlayState: animationState }} onClick={handleClick}></div>
-                    </div>
+        <div className='main2-page'>
+            <div className="middle2-left-box">
+                    <div className="middle-title-text">다양한 선택지들이<br/>준비되어 있어요</div>
+                    <div className="middle-sub-title-text">오늘의 인기 템플릿부터, 개발자, 나만의 템플릿 등<br/>다양한 선택지 중에서 나만을 위한 템플릿을 찾아보세요</div>
+                </div>
+                <div className="middle2-right-box">
+                        <div className="column1">
+                            <div className='roll1' style={{ animationPlayState: animationState }}>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                            </div> 
+                            <div className='roll2'style={{ animationPlayState: animationState }}>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                            </div> 
+                        </div>
+
+                        <div className="column2">
+                            <div className='roll3' style={{ animationPlayState: animationState }}>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                            </div> 
+                            <div className='roll4' style={{ animationPlayState: animationState }}>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                                <div className="thumbnail" onClick={handleClick}></div>
+                            </div> 
+                        </div>
                 </div>
             </div>
         </>

@@ -1,21 +1,33 @@
 #middle2-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:400px;
-    position: relative;
     overflow: hidden;
 
-    width: auto;
     height: 500px;
 
     background: white;
 }
 
+.main2-page {
+    display: flex;
+    justify-content: center;   
+    gap: 100px; 
+}
+
 .middle2-left-box {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 24px;
+
+    height: 500px;
+}
+
+.middle2-right-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+
+    height: 500px;  
 }
 
 .middle-title-text {
@@ -27,6 +39,16 @@
     line-height: 48px; /* 120% */
 }
 
+.column1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+
 .middle-sub-title-text {
     color: #9A95A3;
     font-family: Noto Sans KR;
@@ -36,21 +58,16 @@
     line-height: normal;
 }
 
-.thumbnails {
-    width: 272px;
-    height: 556px;
-    left: 828px;
-    top: -66px;
-    position: absolute;
-}
-
 .thumbnail {
+
     width: 160px; /* 박스의 크기를 2배로 증가 */
     height: 160px; /* 박스의 크기를 2배로 증가 */
     left: 0;
-    position: absolute;
+    
     background: #F7F6F9;
     border-radius: 16px;
+
+    margin-bottom: 16px;
 }
 
 .small-thumbnail {
@@ -59,7 +76,6 @@
     align-items: center;
     width: 48px;
     height: 48px;
-    position: absolute;
 
     color: black;
     font-size: 21px;
@@ -74,23 +90,47 @@
     0%, 100% { transform: translateY(0); }
 }
 
-@keyframes moveDown {
+@keyframes moveDown1 {
     0% { transform: translateY(0); }
     50% { transform: translateY(-100%); }
+    50.001% { transform: translateY(100%); }
     100% { transform: translateY(0); }
 }
 
-@keyframes moveUp {
+@keyframes moveDown2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-200%); }
+}
+
+@keyframes moveUp1 {
     0% { transform: translateY(0); }
     50% { transform: translateY(100%); }
+    50.001% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}
+
+@keyframes moveUp2 {
+    0% { transform: translateY(-200%); }
     100% { transform: translateY(0); }
 }
 
 
-.column1 .thumbnail, .thumbnail {
-    animation: moveDown 5s infinite linear;
+
+.roll1 {
+    animation: moveDown1 10s infinite linear;
 }
 
-.column2 .thumbnail {
-    animation: moveUp 5s infinite linear;
+.roll2 {
+    animation: moveDown2 10s infinite linear;
+    margin-bottom: 16px;
 }
+
+.roll3 {
+    animation: moveUp1 10s infinite linear;
+}
+
+.roll4 {
+    animation: moveUp2 10s infinite linear;
+    margin-bottom: 16px;
+}
+
