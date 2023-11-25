@@ -1,0 +1,15 @@
+body, h1, h2, h3, p, div, span, and so on {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+
+  width: 100vw;
+}
+
+body::-webkit-scrollbar {
+  display: none; 
+}

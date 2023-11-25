@@ -6,6 +6,7 @@
     position: relative;
     overflow: hidden;
 
+    width: auto;
     height: 500px;
 
     background: white;
@@ -75,13 +76,16 @@
 
 @keyframes moveDown {
     0% { transform: translateY(0); }
-    100% { transform: translateY(-100%); }
+    50% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
 }
 
 @keyframes moveUp {
     0% { transform: translateY(0); }
-    100% { transform: translateY(100%); }
+    50% { transform: translateY(100%); }
+    100% { transform: translateY(0); }
 }
+
 
 .column1 .thumbnail, .thumbnail {
     animation: moveDown 5s infinite linear;

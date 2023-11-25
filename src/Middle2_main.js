@@ -23,10 +23,12 @@ function Middle2_main() {
                         <div className="thumbnail" style={{ top: '576px', animationPlayState: animationState }} onClick={handleClick}></div>
                     </div>
                     <div class="column2">
+                    <div className="thumbnail" style={{ left: '192px', top: '-192px', animationPlayState: animationState }} onClick={handleClick}></div>
                         <div className="thumbnail" style={{ left: '192px', top: '0px', animationPlayState: animationState }} onClick={handleClick}></div>
                         <div className="thumbnail" style={{ left: '192px', top: '192px', animationPlayState: animationState }} onClick={handleClick}></div>
                         <div className="thumbnail" style={{ left: '192px', top: '384px', animationPlayState: animationState }} onClick={handleClick}></div>
                         <div className="thumbnail" style={{ left: '192px', top: '576px', animationPlayState: animationState }} onClick={handleClick}></div>
+                        <div className="thumbnail" style={{ left: '192px', top: '768px', animationPlayState: animationState }} onClick={handleClick}></div>
                     </div>
                 </div>
             </div>

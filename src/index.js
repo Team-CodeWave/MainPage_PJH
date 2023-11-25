@@ -6,6 +6,9 @@ import Middle2_main from './Middle2_main';
 import Last_main from './Last_main';
 import Introduce from './Introduce';
 
+import './index.css';
+
+
 
 ReactDOM.render(
   <Header />, 
