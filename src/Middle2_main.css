@@ -70,26 +70,6 @@
     margin-bottom: 16px;
 }
 
-.small-thumbnail {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 48px;
-    height: 48px;
-
-    color: black;
-    font-size: 21px;
-    font-family: Noto Sans KR;
-    font-weight: 900;
-    word-wrap: break-word;
-
-    animation: yourAnimation 5s infinite linear;
-}
-
-@keyframes yourAnimation {
-    0%, 100% { transform: translateY(0); }
-}
-
 @keyframes moveDown1 {
     0% { transform: translateY(0); }
     50% { transform: translateY(-100%); }
