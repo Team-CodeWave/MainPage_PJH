@@ -9,7 +9,7 @@
 .main2-page {
     display: flex;
     justify-content: center;   
-    gap: 100px; 
+    gap: 130px; 
 }
 
 .middle2-left-box {
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 24px;
+    gap: 34px;
 
     height: 500px;  
 }
@@ -70,6 +70,11 @@
     margin-bottom: 16px;
 }
 
+.glass-icon {
+    width: 150px;
+    height: 150px;
+}
+
 @keyframes moveDown1 {
     0% { transform: translateY(0); }
     50% { transform: translateY(-100%); }
@@ -97,20 +102,20 @@
 
 
 .roll1 {
-    animation: moveDown1 10s infinite linear;
+    animation: moveDown1 15s infinite linear;
 }
 
 .roll2 {
-    animation: moveDown2 10s infinite linear;
+    animation: moveDown2 15s infinite linear;
     margin-bottom: 16px;
 }
 
 .roll3 {
-    animation: moveUp1 10s infinite linear;
+    animation: moveUp1 15s infinite linear;
 }
 
 .roll4 {
-    animation: moveUp2 10s infinite linear;
+    animation: moveUp2 15s infinite linear;
     margin-bottom: 16px;
 }
 
