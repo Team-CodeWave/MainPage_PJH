@@ -5,6 +5,13 @@ header {
     gap: 556px;
     flex-shrink: 0;
 
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    right: 0;    
+
+    z-index: 1000;
+
     width: auto;
 
     border-bottom: 1px solid #F7F6F9;
@@ -67,10 +74,15 @@ button {
 
 .header-button {
     white-space: nowrap;
+    text-shadow: 2px  rgba(0, 0, 0, 0.05);
 
     width: auto;
+
+    
 }
 
 .header-button:hover {
     cursor: pointer;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.05);
 }
+
